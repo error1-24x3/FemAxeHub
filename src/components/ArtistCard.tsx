@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import type { Artist } from '@/lib/types';
 import FavoritesButton from './FavoritesButton';
 import { Badge } from './ui/badge';
-import { cn } from '@/lib/utils';
+import { cn, withBasePath } from '@/lib/utils';
 
 interface ArtistCardProps {
   artist: Artist;
@@ -16,7 +16,7 @@ const ArtistCard = ({ artist }: ArtistCardProps) => {
       <Card className="h-full overflow-hidden transition-all duration-300 hover:shadow-primary/20 hover:shadow-lg hover:-translate-y-1 border-border/50">
         <div className="relative">
           <Image
-            src={artist.image}
+            src={withBasePath(artist.image)}
             alt={artist.name}
             width={400}
             height={400}

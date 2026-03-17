@@ -1,5 +1,6 @@
 
 import type { Artist } from '@/lib/types';
+import { withBasePath } from './utils';
 
 export const defaultArtists: Artist[] = [
   {
@@ -8,7 +9,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Virtuoso Rock',
     instrument: 'Electric Guitar',
     bio: 'Juliana Wilson is a rising star in the guitar world, known for her virtuosic rock playing and impressive technical skills at a young age. She has gained a significant following online for her mesmerizing performances and an original music.',
-    image: '/images/Juliana.jpg',
+    image: withBasePath('/images/Juliana.jpg'),
     spotifyUri: 'spotify:playlist:1gCe78Te1jJmDfbJSAKqHE',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/julianawilsonmusic' },
@@ -24,7 +25,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Hard Rock / Heavy Metal',
     instrument: 'Electric Guitar',
     bio: 'Nita Strauss is an American rock musician. She is the current touring guitarist for Alice Cooper and has a successful solo career, having been ranked No. 1 on Guitar World\'s list of "10 Female Guitar Players You Should Know". Her energetic and technical playing has made her a prominent figure in modern rock.',
-    image: '/images/Nita Strauss.jpg',
+    image: withBasePath('/images/Nita Strauss.jpg'),
     spotifyUri: 'spotify:artist:73GhYkwfPQzmfJb1cdPqPf',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/hurricanenita' },
@@ -43,7 +44,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Rock / Pop / Blues',
     instrument: 'Electric Guitar',
     bio: 'Orianthi Panagaris, known mononymously as Orianthi, is an Australian musician, singer and songwriter who has released four studio albums and one EP. She is known for her virtuosic guitar skills and has performed with artists such as Michael Jackson and Alice Cooper. Her song "According to You" was a worldwide hit.',
-    image: '/images/Orianthi.jpg',
+    image: withBasePath('/images/Orianthi.jpg'),
     spotifyUri: 'spotify:artist:0GSRc0gJkSVfyl3a2fg1se',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/iamorianthi' },
@@ -61,7 +62,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Math Rock / Progressive Rock',
     instrument: 'Electric Guitar',
     bio: 'Yvette Young is an American musician from San Jose, California. She is the front-woman for the math rock band Covet. Young is known for her unique two-handed tapping guitar style. She is also a talented pianist and visual artist, often creating the artwork for her musical projects.',
-    image: '/images/Yvette Young.jpg',
+    image: withBasePath('/images/Yvette Young.jpg'),
     spotifyUri: 'spotify:artist:4BlWdHDiz0cin6mby2KAnr',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/yvetteyoung' },
@@ -79,7 +80,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Rock / Fusion',
     instrument: 'Electric Guitar',
     bio: 'Jennifer Batten is an American guitarist who has worked as a session musician and solo artist. She has toured and recorded with Michael Jackson on all three of his world tours, and also worked with Jeff Beck. Batten is known for her innovative techniques, including two-handed tapping.',
-    image: '/images/Jennifer Batten.jpg',
+    image: withBasePath('/images/Jennifer Batten.jpg'),
     spotifyUri: 'spotify:artist:222pfnMm3lQgAs3dI4tvyW',
     socialLinks: [
         { platform: 'Instagram', url: 'https://www.instagram.com/jenniferbatten1' },
@@ -97,7 +98,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Instrumental Rock / Fusion',
     instrument: 'Electric Guitar',
     bio: 'Lari Basilio is a Brazilian guitarist and songwriter, known for her instrumental rock and fusion music. Her playing is celebrated for its melodic phrasing and technical proficiency. She won the "Instrumental" category of the Samsung E-Festival in 2014.',
-    image: '/images/Lari Basilio1.jpg',
+    image: withBasePath('/images/Lari Basilio1.jpg'),
     spotifyUri: 'spotify:artist:4Bf01m350vW5w33P0T6s2i',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/laribasilio' },
@@ -113,7 +114,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Shred / Rock',
     instrument: 'Electric Guitar',
     bio: 'Sophie Lloyd is a British rock and metal guitarist, known for her shredding skills and energetic online presence. She gained significant popularity on YouTube for her guitar covers and original compositions, eventually joining Machine Gun Kelly\'s live band.',
-    image: '/images/Sophie Lloyd1.jpg',
+    image: withBasePath('/images/Sophie Lloyd1.jpg'),
     spotifyUri: 'spotify:artist:6llIdnUs3Ppc3Ie39622d2',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/sophieguitar_' },
@@ -129,7 +130,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Progressive Metal / Djent',
     instrument: '8-string Guitar',
     bio: 'Sarah Longfield is an American multi-instrumentalist, best known for her work with the 8-string guitar. Her unique playing style and compositions in the progressive metal and djent scenes have earned her a dedicated following. She was formerly in the band The Fine Constant.',
-    image: '/images/Sahara.jpg',
+    image: withBasePath('/images/Sahara.jpg'),
     spotifyUri: 'spotify:artist:5Y6YI1t5I2iO8S33bW5Icz',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/sarahlongfield' },
@@ -145,7 +146,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Rock / Punk',
     instrument: 'Electric Guitar',
     bio: 'Joan Jett is an American rock singer, songwriter, composer, musician, record producer, and actress. Jett is best known for her work as the frontwoman of her band, Joan Jett & the Blackhearts, and for earlier founding and performing with the Runaways.',
-    image: '/images/Joan Jett1.jpg',
+    image: withBasePath('/images/Joan Jett1.jpg'),
     spotifyUri: 'spotify:artist:2ZvKhdTGdy6sAOLi0CWzaG',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/joanjett' },
@@ -161,7 +162,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Hard Rock / Heavy Metal',
     instrument: 'Electric Guitar',
     bio: 'Lita Ford is an English-born American rock guitarist, vocalist, and songwriter. She was the lead guitarist for the all-female rock band the Runaways in the late 1970s before embarking on a successful solo career in the 1980s.',
-    image: '/images/Lita Ford.jpg',
+    image: withBasePath('/images/Lita Ford.jpg'),
     spotifyUri: 'spotify:artist:77YAklmSLq4d4sG2AorPqu',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/litafordofficial' },
@@ -177,7 +178,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Rock / Folk Rock',
     instrument: 'Acoustic & Electric Guitar',
     bio: 'Nancy Wilson is an American musician, singer, songwriter, producer, and composer. She rose to fame alongside her older sister, singer Ann Wilson, as a guitarist and backing vocalist in the rock band Heart.',
-    image: '/images/heart-nancy-wilson.jpg',
+    image: withBasePath('/images/heart-nancy-wilson.jpg'),
     spotifyUri: 'spotify:artist:4CgDVT9n2H1d46rhI9bofI',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/nancywilson' },
@@ -193,7 +194,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Blues / Rock / R&B',
     instrument: 'Slide Guitar',
     bio: 'Bonnie Raitt is an American blues singer, guitarist, songwriter, and activist. During the 1970s, Raitt released a series of roots-influenced albums that incorporated elements of blues, rock, folk, and country. She is a renowned slide guitar player.',
-    image: '/images/Bonnie Raitt1.jpg',
+    image: withBasePath('/images/Bonnie Raitt1.jpg'),
     spotifyUri: 'spotify:artist:4KDyYWR7IpxZ7xrdYbBzzY',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/bonnieraittofficial' },
@@ -209,7 +210,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Gospel / Blues / Rock and Roll',
     instrument: 'Electric Guitar',
     bio: 'Sister Rosetta Tharpe was an American singer, songwriter, guitarist, and recording artist. She attained popularity in the 1930s and 1940s with her gospel recordings, characterized by a unique mixture of spiritual lyrics and electric guitar that was a precursor of rock and roll.',
-    image: '/images/Sister Rosetta Tharpe1.jpg',
+    image: withBasePath('/images/Sister Rosetta Tharpe1.jpg'),
     spotifyUri: 'spotify:artist:2dXf5lu5iilcaTQJZodce7',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/sisterrosettatharpe' },
@@ -225,7 +226,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Acoustic / Experimental',
     instrument: 'Acoustic & Electric Guitar',
     bio: 'Katherine "Kaki" King is an American guitarist and composer. King is known for her percussive and jazz-tinged melodies, energetic live shows, use of multiple tunings on acoustic and lap steel guitar, and her a diverse range in different genres.',
-    image: '/images/Kaki King1.jpg',
+    image: withBasePath('/images/Kaki King1.jpg'),
     spotifyUri: 'spotify:artist:1s2pki7lATUaBOL76E3vCV',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/kakigram' },
@@ -241,7 +242,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Indie Rock / Art Rock',
     instrument: 'Electric Guitar',
     bio: 'Annie Clark, known professionally as St. Vincent, is an American musician, singer, songwriter, and producer. She is known for her complex guitar work, which often incorporates fuzz and other effects, and her eclectic musical style.',
-    image: '/images/St._Vincent_10_29_2018_-2_(44237126380).jpg',
+    image: withBasePath('/images/St._Vincent_10_29_2018_-2_(44237126380).jpg'),
     spotifyUri: 'spotify:artist:7bcbShaqKdcyjnmv4Ix8j6',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/st_vincent' },
@@ -257,7 +258,7 @@ export const defaultArtists: Artist[] = [
     genre: 'R&B / Soul',
     instrument: 'Electric Guitar',
     bio: 'Gabriella Sarmiento Wilson, known professionally as H.E.R., is an American singer, songwriter, and musician. She is acclaimed for her soulful R&B music and her impressive skills on the electric guitar, often performing solos during her live shows.',
-    image: '/images/her-live-credit-lestercohen-getty@1400x1050-1392x1044.jpg',
+    image: withBasePath('/images/her-live-credit-lestercohen-getty@1400x1050-1392x1044.jpg'),
     spotifyUri: 'spotify:artist:3Y7RZ31TRPVadSFVy1o8os',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/hermusicofficial' },
@@ -273,7 +274,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Blues / Rock',
     instrument: 'Electric Guitar',
     bio: 'Samantha Fish is an American singer-songwriter and guitarist from Kansas City, Missouri. A powerful live performer, she has made a name for herself as a rising star in the contemporary blues world.',
-    image: '/images/Samantha fish.jpeg',
+    image: withBasePath('/images/Samantha fish.jpeg',
     imagePosition: 'object-top',
     spotifyUri: 'spotify:artist:5HsS48kuvghKcNpwOaAvB5',
     socialLinks: [
@@ -290,7 +291,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Blues / Rock',
     instrument: 'Electric Guitar',
     bio: 'Ana Popović is a Serbian blues guitarist and singer. She has been nominated for multiple Blues Music Awards and is known for her fiery guitar playing and soulful vocals.',
-    image: '/images/Anna popovic.jpg',
+    image: withBasePath('/images/Anna popovic.jpg'),
     spotifyUri: 'spotify:artist:5kPU3sMV9yEFV2j4lM4gVc',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/anapopovicmusic' },
@@ -306,7 +307,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Indie Rock',
     instrument: 'Electric Guitar',
     bio: 'Courtney Barnett is an Australian singer, songwriter, and musician. Known for her witty, rambling lyrics and deadpan singing style, she has attracted praise from critics and audiences alike for her distinctive guitar work.',
-    image: '/images/Courtney Barnett.jpg',
+    image: withBasePath('/images/Courtney Barnett.jpg'),
     spotifyUri: 'spotify:artist:4OOlG5eBXSkSAAEeKjJb5Y',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/courtneymelba' },
@@ -322,7 +323,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Folk / Rock / Jazz',
     instrument: 'Acoustic & Electric Guitar',
     bio: 'Joni Mitchell is a Canadian singer-songwriter. Drawing from folk, pop, rock, classical, and jazz, Mitchell\'s songs often reflect on social and philosophical ideals as well as her feelings about womanhood, romance, and disillusionment. She is known for her unique open tunings.',
-    image: '/images/gettyimages-3207322-612x612.jpg',
+    image: withBasePath('/images/gettyimages-3207322-612x612.jpg'),
     spotifyUri: 'spotify:artist:5hW4L92KnC6dX9t7tYM4Ve',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/jonimitchell' },
@@ -338,7 +339,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Indie Rock / Punk',
     instrument: 'Electric Guitar',
     bio: 'Carrie Brownstein is an American musician, actress, writer, director, and comedian. She first came to prominence as a member of the band Excuse 17 before forming the rock trio Sleater-Kinney. Her energetic and angular guitar playing is a hallmark of their sound.',
-    image: '/images/Carrie Brownstein.jpg',
+    image: withBasePath('/images/Carrie Brownstein.jpg'),
     spotifyUri: 'spotify:artist:4wLIbcoqmqI4WZHGvt2hsq',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/carrie_rachel' },
@@ -354,7 +355,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Indie Rock / Punk',
     instrument: 'Electric Guitar',
     bio: 'Marissa Paternoster is the lead singer and guitarist of the rock band Screaming Females. She is known for her powerful vocals and intricate, shredding guitar solos, which have led to her being named one of the greatest guitarists of all time by several publications.',
-    image: '/images/Marissa.jpg',
+    image: withBasePath('/images/Marissa.jpg'),
     spotifyUri: 'spotify:artist:3r57DY2Vvg6h5dasmA26hB',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/marissa_paternoster' },
@@ -370,7 +371,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Blues / Soul',
     instrument: 'Electric Guitar',
     bio: 'Susan Tedeschi is an American singer and guitarist. A multiple Grammy Award nominee, she is a member of the Tedeschi Trucks Band, a conglomeration of her and her husband Derek Trucks\' backing bands. Her soulful voice and bluesy guitar licks are her signature.',
-    image: '/images/gettyimages-562579879-612x612.jpg',
+    image: withBasePath('/images/gettyimages-562579879-612x612.jpg'),
     spotifyUri: 'spotify:artist:22aCfkJkTIjhm4EXUoceS2',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/tedeschitrucksband' },
@@ -386,7 +387,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Funk / Rock / Jazz Fusion',
     instrument: 'Electric Guitar',
     bio: 'Donna Grantis is a Canadian guitarist, best known for performing and recording with Prince\'s funk-rock band 3rdeyegirl. Her virtuosic playing combines classic rock influences with jazz and funk sensibilities, creating a unique and powerful sound.',
-    image: '/images/6471c6f72da28.image.jpg',
+    image: withBasePath('/images/6471c6f72da28.image.jpg'),
     spotifyUri: 'spotify:artist:0mN3r20B22i7x17s2iBw6y',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/donnagrantis' },
@@ -402,7 +403,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Rock / Blues',
     instrument: 'Electric Guitar',
     bio: 'Sierra Levesque is a young Canadian multi-instrumentalist and vocalist who has gained significant attention for her prodigious talents, particularly her powerful blues and rock guitar playing. She is quickly making a name for herself as a rising star in the music world.',
-    image: '/images/Sierra.png',
+    image: withBasePath('/images/Sierra.png',
     imagePosition: 'object-top',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/sierralevesque' },
@@ -418,7 +419,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Progressive Rock / Metal',
     instrument: 'Electric Guitar',
     bio: 'Nili Brosh is an Israeli-American guitarist known for her work with the Tony MacAlpine band, The Iron Maidens, and her own solo work. Her style blends technical proficiency with melodic sensibility, making her a respected figure in the progressive rock and metal communities.',
-    image: '/images/gettyimages-632276588-612x612.jpg',
+    image: withBasePath('/images/gettyimages-632276588-612x612.jpg'),
     spotifyUri: 'spotify:artist:0q1p2p512uGf5a73L9s3O5',
     socialLinks: [
       { platform: 'Instagram', url: '#' },

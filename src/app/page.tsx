@@ -19,6 +19,7 @@ import {
 } from "@/components/ui/dialog";
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
+import { withBasePath } from '@/lib/utils';
 
 
 export default function Home() {
@@ -80,7 +81,7 @@ export default function Home() {
               </DialogContent>
             </Dialog>
           <Image 
-            src="/images/motion-ezgif.com-optimize.gif" 
+            src={withBasePath("/images/motion-ezgif.com-optimize.gif")} 
             alt="Creator animation" 
             width={40} 
             height={40}
@@ -112,7 +113,7 @@ export default function Home() {
       </section>
 
       <section>
-        <h2 className="text-3xl font-bold font-headline mb-6">Featured Fretboard Femmes</h2>
+        <h2 class="text-3xl font-bold font-headline mb-6">Featured Fretboard Femmes</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {filteredArtists.map((artist) => (
             <ArtistCard key={artist.id} artist={artist} />

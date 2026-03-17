@@ -4,6 +4,9 @@ import type {NextConfig} from 'next';
 const nextConfig: NextConfig = {
   /* config options here */
   output: 'export',
+  basePath: '/FemAxeHub',
+  assetPrefix: '/FemAxeHub',
+  trailingSlash: true,
   images: {
     unoptimized: true,
     remotePatterns: [
@@ -20,16 +23,6 @@ const nextConfig: NextConfig = {
   },
   eslint: {
     ignoreDuringBuilds: true,
-  },
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'placehold.co',
-        port: '',
-        pathname: '/**',
-      },
-    ],
   },
 };
 
