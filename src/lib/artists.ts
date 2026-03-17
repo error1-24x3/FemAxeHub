@@ -274,7 +274,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Blues / Rock',
     instrument: 'Electric Guitar',
     bio: 'Samantha Fish is an American singer-songwriter and guitarist from Kansas City, Missouri. A powerful live performer, she has made a name for herself as a rising star in the contemporary blues world.',
-    image: withBasePath('/images/Samantha fish.jpeg',
+    image: withBasePath('/images/Samantha fish.jpeg'),
     imagePosition: 'object-top',
     spotifyUri: 'spotify:artist:5HsS48kuvghKcNpwOaAvB5',
     socialLinks: [
@@ -403,7 +403,7 @@ export const defaultArtists: Artist[] = [
     genre: 'Rock / Blues',
     instrument: 'Electric Guitar',
     bio: 'Sierra Levesque is a young Canadian multi-instrumentalist and vocalist who has gained significant attention for her prodigious talents, particularly her powerful blues and rock guitar playing. She is quickly making a name for herself as a rising star in the music world.',
-    image: withBasePath('/images/Sierra.png',
+    image: withBasePath('/images/Sierra.png'),
     imagePosition: 'object-top',
     socialLinks: [
       { platform: 'Instagram', url: 'https://www.instagram.com/sierralevesque' },
