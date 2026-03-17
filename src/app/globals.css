@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 265 27% 16%; /* Deep Purple */
+    --foreground: 0 0% 98%;
+    --card: 265 27% 20%;
+    --card-foreground: 0 0% 98%;
+    --popover: 265 27% 16%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 182 100% 74%; /* Electric Blue */
+    --primary-foreground: 265 27% 10%;
+    --secondary: 265 27% 22%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 265 27% 22%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 285 8% 68%; /* Metallic Silver */
+    --accent-foreground: 265 27% 10%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 265 27% 25%;
+    --input: 265 27% 25%;
+    --ring: 182 100% 74%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 265 27% 16%; /* Deep Purple */
+    --foreground: 0 0% 98%;
+    --card: 265 27% 20%;
+    --card-foreground: 0 0% 98%;
+    --popover: 265 27% 16%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 182 100% 74%; /* Electric Blue */
+    --primary-foreground: 265 27% 10%;
+    --secondary: 265 27% 22%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 265 27% 22%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 285 8% 68%; /* Metallic Silver */
+    --accent-foreground: 265 27% 10%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 265 27% 25%;
+    --input: 265 27% 25%;
+    --ring: 182 100% 74%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
