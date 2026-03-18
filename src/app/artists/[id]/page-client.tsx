@@ -9,7 +9,7 @@ import { Globe, Music, MicVocal, CalendarDays, ExternalLink, Instagram, Twitter,
 import { PersonalizedDescription } from '@/components/PersonalizedDescription';
 import type { Artist, MusicLink as MusicLinkType } from '@/lib/types';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
-import { cn } from '@/lib/utils';
+import { cn, withBasePath } from '@/lib/utils';
 import React from 'react';
 
 const SocialIcon = ({ platform }: { platform: string }) => {
@@ -40,7 +40,7 @@ export default function ArtistProfileClientPage({ artist }: { artist: Artist }) 
     <div className="space-y-8">
       <section className="relative h-[40vh] md:h-[50vh] rounded-xl overflow-hidden -mx-4 -mt-8 sm:-mx-6 lg:-mx-8">
         <Image
-          src={artist.image}
+          src={withBasePath(artist.image)}
           alt={artist.name}
           fill
           unoptimized
