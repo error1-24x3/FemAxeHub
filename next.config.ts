@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: 'export',
   basePath: '/FemAxeHub',
+  trailingSlash: true,
   images: {
     unoptimized: true,
     remotePatterns: [

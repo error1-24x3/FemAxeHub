@@ -10,7 +10,7 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -t -d out"
   },
   "dependencies": {
     "@capacitor/android": "^8.0.2",
