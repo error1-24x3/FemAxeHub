@@ -434,3 +434,13 @@ export const getArtistById = (id: string): Artist | undefined => {
     const currentArtists = [...defaultArtists, ...getCustomArtists()];
     return currentArtists.find(artist => artist.id === id);
 }
+
+export const addArtist = (artist: Omit<Artist, 'id'>) => {
+    const customArtists = getCustomArtists();
+    const newArtist: Artist = {
+        ...artist,
+        id: artist.name.toLowerCase().replace(/\s+/g, '-'),
+    };
+    customArtists.push(newArtist);
+    localStorage.setItem('custom_artists', JSON.stringify(customArtists));
+}
